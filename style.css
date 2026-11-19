@@ -89,3 +89,28 @@ button {
 button:hover {
     background-color: darkblue;
 }
+
+.email-container {
+    position: relative;
+    width: 160px;
+}
+
+.email-container input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.email-icon {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background-color: #f04444;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 3px;
+    line-height: 12px;
+    cursor: default;
+}
