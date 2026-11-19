@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px 48px;
+    font-size: 13px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+
+fieldset {
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 8px 9px 10px;
+}
+
+legend {
+    padding: 0 3px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    align-items: start;
+    margin-bottom: 5px;
+}
+
+.form-row > label {
+    padding-top: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 155px;
+    height: 22px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 83px;
+    box-sizing: border-box;
+    resize: both;
+}
+
+select {
+    width: 92px;
+    height: 27px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    min-height: 22px;
+}
+
+.options label {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.options input {
+    margin: 0;
+}
+
+.submit-area {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
